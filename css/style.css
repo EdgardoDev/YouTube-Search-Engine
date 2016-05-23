@@ -101,3 +101,44 @@ footer {
 	filter: alpha(opacity= 90);
 	opacity: 0.9;
 }
+
+#results li {
+	padding: 10px 0;
+	border-bottom: 1px #ccc dotted;
+	list-style: none;
+	overflow: auto;
+}
+
+.list-left {
+	float: left;
+	width: 20%;
+}
+
+.list-left img {
+	width: 100%;
+	padding: 3px;
+	border: 1px solid #ccc;
+}
+
+.list-right {
+	float: right;
+	width: 78%;
+}
+
+.cTitle {
+	color: #dd2826;
+}
+
+.button-container{
+	margin-top:25px;
+}
+
+.paging-button{
+	background:#f4f4f4;
+	padding:8px 13px;
+	border:#ccc 1px solid;
+	border-radius:5px;
+	color:#333;
+	margin:10px;
+	cursor:pointer;
+}
